@@ -49,7 +49,7 @@ function App() {
       />
       <main className="main container" role="main">
         <section className="hero">
-          <h1>DISCOVER OUR PRODUCTS</h1>
+          <h1>DISCOVER OUR PRODUCTS HERE</h1>
           <p className="lead">Browse our curated collection — use filters to refine results. Minimal UI, maximum clarity.</p>
         </section>
 
