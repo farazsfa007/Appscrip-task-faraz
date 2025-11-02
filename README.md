@@ -16,8 +16,8 @@ A simple Product Listing Page implemented with React and pure CSS. Fetches mock 
 2. `npm start`
 3. App runs at `http://localhost:5137`
 
-## Build & Deploy
-- `npm run build` then deploy `build/` to Netlify host.
+## Build & Deployement
+- `npm run build` then deployed `build/` to Netlify host.
 
 ## Notes
 - Uses Fake Store API at `https://fakestoreapi.com/products`. If remote fetch fails, local `src/data/products.json` kicks in.
