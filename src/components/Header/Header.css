@@ -1,0 +1,60 @@
+.site-header {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 14px 0;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-mark {
+    width: 36px;
+    height: 36px;
+    background: #111;
+    border-radius: 4px;
+    opacity: 0.95;
+}
+.logo-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.nav {
+    margin-left: 18px;
+    display: flex;
+    gap: 16px;
+    flex: 1;
+}
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.search {
+    display: flex;
+    gap: 8px;
+}
+.search input {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.search button {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    .nav { display: none; }
+}

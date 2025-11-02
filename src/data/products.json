@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Gray Roll-Top Backpack",
+    "price": 79.99,
+    "description": "Durable roll-top backpack with inner laptop sleeve.",
+    "category": "bags",
+    "image": "https://images.unsplash.com/photo-1562157877-818bc0726e24?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=6e0d9035b2a2b5360ef8cc7640f5bedc",
+    "rating": {"rate": 4.8, "count": 34}
+  },
+  {
+    "id": 2,
+    "title": "Handmade Leather Pouch",
+    "price": 34.5,
+    "description": "Small leather pouch for everyday carry items.",
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1534951009805-5a8f0b6f0a3b?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=1b7c0be7c7b219c1b5af3140a2d5c9a7",
+    "rating": {"rate": 4.2, "count": 12}
+  },
+  {
+    "id": 3,
+    "title": "Yellow Knit Toy",
+    "price": 22.0,
+    "description": "Hand-knit toy for kids.",
+    "category": "kids",
+    "image": "https://images.unsplash.com/photo-1606221416599-8f373c0537d9?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=9b9b1f36c4b6e6f3f0d2a6d8e8b0a7f4",
+    "rating": {"rate": 4.7, "count": 20}
+  },
+  {
+    "id": 4,
+    "title": "Woven Saddle Bag",
+    "price": 89.0,
+    "description": "Stylish woven bag with long strap.",
+    "category": "bags",
+    "image": "https://images.unsplash.com/photo-1543747579-795b7f5023b6?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=8a5c7e1d6b8a9b7bb6d5c2f7b7d2a3d0",
+    "rating": {"rate": 4.1, "count": 9}
+  }
+]
