@@ -1,16 +1,24 @@
-# React + Vite
+# Appscrip Product Listing Page (PLP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Product Listing Page implemented with React and pure CSS. Fetches mock data from Fake Store API with a fallback local dataset.
 
-Currently, two official plugins are available:
+## Features
+- Responsive grid (desktop/tablet/mobile)
+- Sidebar filters (category, availability example)
+- Search and sorting
+- SEO metadata (react-helmet) and JSON-LD schema
+- Minimal dependencies (React + react-helmet)
+- Clean modular code structure, BEM-like CSS naming
+- Lazy-loaded images and accessible markup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run locally
+1. `npm install`
+2. `npm start`
+3. App runs at `http://localhost:5137`
 
-## React Compiler
+## Build & Deploy
+- `npm run build` then deploy `build/` to Netlify host.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+- Uses Fake Store API at `https://fakestoreapi.com/products`. If remote fetch fails, local `src/data/products.json` kicks in.
+- Keep images SEO-friendly by replacing sample images with named product images (e.g. `bag-gray.jpg`) in `public/assets`.
