@@ -22,3 +22,5 @@ A simple Product Listing Page implemented with React and pure CSS. Fetches mock 
 ## Notes
 - Uses Fake Store API at `https://fakestoreapi.com/products`. If remote fetch fails, local `src/data/products.json` kicks in.
 - Keep images SEO-friendly by replacing sample images with named product images (e.g. `bag-gray.jpg`) in `public/assets`.
+
+## Live Link :- https://appscript-task-nxtwave-s-faraz-a.netlify.app/
